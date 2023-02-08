@@ -1,0 +1,359 @@
+@media (max-width: 479px) {
+
+    :root {
+        --font_size: 10px;
+        --font_size_title: 19px;
+    }
+    .footer_callback,
+    .footer_menu li a,
+    .footer_contact,
+    .footer_politic,
+    .footer_contract {
+        font-size: 10px;
+    }
+    .footer_callback {
+        margin: 0;
+    }
+    footer .link a {
+        max-width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .footer_callback {
+        line-height: 1.2;
+    }
+    .footer_callback-name {
+        margin-bottom: 10px;
+    }
+    .footer_callback-requisites {
+        margin-bottom: 10px;
+    }
+    .footer_callback-adress {
+        margin-bottom: 10px;
+    }
+    .footer_callback-copyright {
+        margin-bottom: 20px;
+    }
+    .footer_contact {
+        margin-bottom: 10px;
+    }
+    .footer_politic {
+        margin-top: 0;
+    }
+    .footer_contract {
+        margin-top: 10px;
+    }
+
+
+    .cont {
+        padding: 0 10px;
+    }
+    .first-section_img {
+        width: 146px;
+        height: 194px;
+    }
+    .link a {
+        width: calc(50% - 5px);
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .block {
+        padding: 30px 0;
+    }
+    .first-section_title-mob {
+        font-size: 19px;
+        line-height: 19px;
+        max-width: 280px;
+    }
+    .first-section_text {
+        font-size: 10px;
+        line-height: 12px;
+        max-width: 234px;
+    }
+
+    .advantages_item-title {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    .advantages_item-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .partners_item a {
+        max-width: 136px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .partners_item-name {
+        margin-bottom: 8px;
+    }
+    .practics,
+    .consultation {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .consultation_text {
+        line-height: 1.2;
+    }
+
+    .practics_subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .practics_column ul li::after {
+        width: 14px;
+        height: 7px;
+        top: 3px;
+        background-size: cover;
+    }
+    .practics_column ul li {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 5px;
+        padding-left: 22px;
+    }
+    .practics_text {
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .team_item-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .team_item-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .consultation_img {
+        width: 100%;
+        height: auto;
+    }
+    .achievements .slick-prev::before {
+        left: 9px;
+    }
+    .achievements .slick-next:before {
+        left: -2px;
+    }
+
+    .price_item-img {
+        width: 100%;
+        height: auto;
+    }
+    .price_logo {
+        margin: 0 auto;
+    }
+    .price_text {
+        font-size: var(--font_size);
+    }
+    .price_item .link {
+        width: 100%;
+    }
+    .price_item .link a {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .price_item ul li {
+        line-height: 12px;
+    }
+    form button {
+        max-width: 100%;
+    }
+    .steps_item-title span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .steps_item-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .news_item {
+        padding: 20px 8px;
+    }
+    .news_item-date {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .news_item-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .news_item-text {
+        line-height: 12px;
+    }
+    .news_item {
+        margin-bottom: 20px;
+    }
+    .news .view-link {
+        font-size: 14px;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+    }
+    .modal {
+        padding: 76px 10px;
+    }
+    .partners_modal-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .team_modal-post {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+    .team_modal-name {
+        margin-bottom: 10px;
+    }
+    .team_modal-email {
+        margin-top: 10px;
+    }
+    form .line .field input {
+        padding: 10px 0;
+    }
+    form .line .field textarea {
+        padding: 10px 0;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 20px;
+    }
+    .news-page .news_title {
+        text-align: start;
+    }
+    .payment {
+        padding-bottom: 76px;
+    }
+    .tabs button.active {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .tabs button {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .tabs_container form .line:nth-child(3) {
+        flex-wrap: wrap;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(1) {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(2) {
+        margin-right: 0px;
+        width: 48%;
+        margin-top: 15px;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(3) {
+        margin-left: 8px;
+        width: 48%;
+        margin-top: 15px;
+    }
+    .tabs_container form .line {
+        margin-bottom: 15px;
+    }
+
+    .steps_items > *{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cases_item-img {
+        width: 100%;
+        height: auto;
+        height: 160px;
+        overflow: hidden;
+    }
+    .cases_item-img img {
+        width: 100%;
+        height: auto;
+    }
+    .cases_item-title {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .cases_item-title-img {
+        width: 20%;
+        height: auto;
+    }
+    .cases_item {
+        margin-bottom: 30px;
+        padding: 20px 8px;
+    }
+    .cases_item-text {
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .cases .view-link {
+        width: 100%;
+        height: 40px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .pagination a {
+        width: 33px;
+        height: 33px;
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .modal_callback {
+        padding: 50px 10px 10px;
+    }
+    .modal_callback-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .modal_callback .consultation_text {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .videos_item-img img {
+        height: 200px;
+    }
+
+
+    .team_items .team_item:nth-child(4){
+        order:2;
+    }
+
+    .practics_text img{
+        margin-top: 1px;
+    }
+    .first-section_img img{
+        display: block;
+    }
+    .first-section_img{
+        width: calc(50% - 4px);
+        height: auto;
+    }
+    .first-section_left .first-section_img{
+        width: 100%;
+    }
+    .first-section_left{
+        width: calc(50% - 4px);
+    }
+
+    .first-section_links{
+        max-width: 100%;
+    }
+   
+}
